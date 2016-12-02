@@ -1,5 +1,6 @@
 var dataObject = {
-	"272822514" : {
+	  personId : 00001;
+		 {
 	  "firstName": "Billy",
 	  "lastName": "Bob",
 	  "gender": "male",
@@ -9,9 +10,10 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
 	  "parents": [],
-	  "currentSpouse": 401222887
+	  "currentSpouse": 00002
 	},
-	"401222887" : {
+	  personId = 00002;
+		 {
 	  "firstName": "Uma",
 	  "lastName": "Bob",
 	  "gender": "female",
@@ -21,9 +23,10 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 272822514
+	  "currentSpouse": 00001
 	},
-	"409574486" : {
+	  personId = 00003;
+	{
 	  "firstName": "Michael",
 	  "lastName": "Walkens",
 	  "gender": "male",
@@ -33,9 +36,10 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
 	  "parents": [],
-	  "currentSpouse": 260451248
+	  "currentSpouse": 00004
 	},
-	"260451248" : {
+	   personId = 00004;
+		 	{
 	  "firstName": "Jon",
 	  "lastName": "Walkens",
 	  "gender": "male",
@@ -45,9 +49,10 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 409574486
+	  "currentSpouse": 00003
 	},
-	"629807187" : {
+	personId = 00005;
+	{
 	  "firstName": "Jack",
 	  "lastName": "Pafoy",
 	  "gender": "male",
@@ -57,9 +62,10 @@ var dataObject = {
 	  "eyeColor": "black",
 	  "occupation": "nurse",
 	  "parents": [],
-	  "currentSpouse": 464142841
+	  "currentSpouse": 00006
 	},
-	"464142841" : {
+	  personId = 00006;
+	 {
 	  "firstName": "Jen",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -69,9 +75,10 @@ var dataObject = {
 	  "eyeColor": "black",
 	  "occupation": "student",
 	  "parents": [],
-	  "currentSpouse": 629807187
+	  "currentSpouse": 00005
 	},
-	"982411429" : {
+	personId = 00007;
+	{
 	  "firstName": "Mister",
 	  "lastName": "Potatoo",
 	  "gender": "male",
@@ -81,9 +88,10 @@ var dataObject = {
 	  "eyeColor": "hazel",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 595767575
+	  "currentSpouse": 00008
 	},
-	"595767575" : {
+	personId = 00008;
+	{
 	  "firstName": "Missuz",
 	  "lastName": "Potatoo",
 	  "gender": "female",
@@ -93,9 +101,10 @@ var dataObject = {
 	  "eyeColor": "blue",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 982411429
+	  "currentSpouse": 00007
 	},
-	"693243224" : {
+	personId = 00009;
+	{
 	  "firstName": "Joy",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -107,7 +116,8 @@ var dataObject = {
 	  "parents": [],
 	  "currentSpouse": null
 	},
-	"888201200" : {
+	personId = 00010;
+	{
 	  "firstName": "Mader",
 	  "lastName": "Madden",
 	  "gender": "male",
@@ -119,7 +129,8 @@ var dataObject = {
 	  "parents": [],
 	  "currentSpouse": null
 	},
-	"878013758" : {
+	personId = 00011;
+	{
 	  "firstName": "Jill",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -128,10 +139,11 @@ var dataObject = {
 	  "weight": 118,
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
-	  "parents": [401222887],
-	  "currentSpouse": 294874671
+	  "parents": [00006],
+	  "currentSpouse":
 	},
-	"951747547" : {
+	 personId = 00012;
+	{
 	  "firstName": "Ralph",
 	  "lastName": "Bob",
 	  "gender": "male",
@@ -140,10 +152,11 @@ var dataObject = {
 	  "weight": 179,
 	  "eyeColor": "blue",
 	  "occupation": "nurse",
-	  "parents": [401222887],
-	  "currentSpouse": 159819275
+	  "parents": [00002,00001],
+	  "currentSpouse": 00013
 	},
-	"159819275" : {
+	personId = 00013;
+	{
 	  "firstName": "Jasmine",
 	  "lastName": "Bob",
 	  "gender": "female",
@@ -152,10 +165,11 @@ var dataObject = {
 	  "weight": 156,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [409574486,260451248],
-	  "currentSpouse": 951747547
+	  "parents": [00004,00003],
+	  "currentSpouse": 000012
 	},
-	"348457184" : {
+	personId = 00014;
+	{
 	  "firstName": "Annie",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -164,10 +178,11 @@ var dataObject = {
 	  "weight": 235,
 	  "eyeColor": "hazel",
 	  "occupation": "landscaper",
-	  "parents": [629807187,464142841],
+	  "parents": [00005,00006],
 	  "currentSpouse": null
 	},
-	"294874671" : {
+	personId = 00015;
+	{
 	  "firstName": "Dave",
 	  "lastName": "Pafoy",
 	  "gender": "male",
@@ -176,10 +191,11 @@ var dataObject = {
 	  "weight": 112,
 	  "eyeColor": "green",
 	  "occupation": "doctor",
-	  "parents": [629807187,464142841],
-	  "currentSpouse": 878013758
+	  "parents": [00005,00006],
+	  "currentSpouse": 00011
 	},
-	"931247228" : {
+	personId = 00016;
+	{
 	  "firstName": "Amii",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -188,10 +204,11 @@ var dataObject = {
 	  "weight": 184,
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
-	  "parents": [629807187,464142841],
+	  "parents": [00005,00006],
 	  "currentSpouse": null
 	},
-	"822843554" : {
+	personId = 00017;
+	{
 	  "firstName": "Regina",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -200,10 +217,11 @@ var dataObject = {
 	  "weight": 249,
 	  "eyeColor": "brown",
 	  "occupation": "nurse",
-	  "parents": [693243224, 888201200],
+	  "parents": [00009, 00010],
 	  "currentSpouse": null
 	},
-	"819168108" : {
+personId = 00018;
+	{
 	  "firstName": "Hana",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -212,10 +230,11 @@ var dataObject = {
 	  "weight": 187,
 	  "eyeColor": "brown",
 	  "occupation": "politician",
-	  "parents": [693243224, 888201200],
+	  "parents": [00009, 00010],
 	  "currentSpouse": null
 	},
-	"969837479" : {
+	personId = 00019;
+	{
 	  "firstName": "Eloise",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -224,10 +243,11 @@ var dataObject = {
 	  "weight": 241,
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
-	  "parents": [693243224, 888201200],
+	  "parents": [00009, 00010],
 	  "currentSpouse": null
 	},
-	"313207561" : {
+	personId = 00020;
+	{
 	  "firstName": "Mattias",
 	  "lastName": "Madden",
 	  "gender": "male",
@@ -236,10 +256,11 @@ var dataObject = {
 	  "weight": 110,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [693243224, 888201200],
-	  "currentSpouse": 313997561
+	  "parents": [00009, 00010],
+	  "currentSpouse": 00021
 	},
-	"313997561" : {
+personId = 00021;
+	{
 	  "firstName": "Ellen",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -249,9 +270,10 @@ var dataObject = {
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
 	  "parents": [],
-	  "currentSpouse": 313207561
+	  "currentSpouse": 00020
 	},
-	"313998000" : {
+	personId = 00022;
+	{
 	  "firstName": "Joey",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -260,7 +282,7 @@ var dataObject = {
 	  "weight": 100,
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
-	  "parents": [313207561,313997561],
+	  "parents": [00021,00020],
 	  "currentSpouse": null
 	}
 };
