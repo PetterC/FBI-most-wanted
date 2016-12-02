@@ -122,7 +122,7 @@ var dataObject = {
 	"878013758" : {
 	  "firstName": "Jill",
 	  "lastName": "Pafoy",
-	  "gender": "Bob",
+	  "gender": "female",
 	  "dob": "2/8/1972",
 	  "height": 74,
 	  "weight": 118,
@@ -276,14 +276,15 @@ function printAllToConsole(dataObj){
 printAllToConsole(dataObject);
 */
 
-function initSearch(){
+function initSearch(dataObject){
 	alert("Hello World");
 
 	// get all the information you need to run the search
-	var yourName = prompt("Who do you want to search for?");
+	var yourFirstName = prompt("First names");
 
+  var yourLastName = prompt("Last Name");
 	// then pass that info to the respective function.
-	var result = getPersonInfo("J", "T")
+	var result = getPersonInfo(yourFirstName, yourLastName)
 
 	// once the search is done, pass the results to the responder function
 	responder(result);
@@ -295,10 +296,14 @@ function responder(results){
 }
 
 function getPersonInfo(firstname, lastname){
-	var result = "This will be the information for whoever you searched for";
+
+	//var result = "This will be the information for whoever you searched for";
 	// look up person's information
-	return result;
-}
+
+dataObject.filter(function(el)){
+if(el = firstname){return true;}
+else {return false;}
+};
 
 function getFamily(){
 	// return list of names of immediate family members
