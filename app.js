@@ -299,10 +299,8 @@ function getPersonInfo(firstname, lastname){
 
 	//var result = "This will be the information for whoever you searched for";
 	// look up person's information
-
- var person = firstname.filter(function(el){
-if(el.firstname==0) && {el.lastname == 0}
-
+ var person = dataObject.filter(function(el){
+return (el.firstname==firstname) && {el.lastname == lastname}
 )};
 
 function getFamily(){
