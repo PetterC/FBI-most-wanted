@@ -300,10 +300,10 @@ function getPersonInfo(firstname, lastname){
 	//var result = "This will be the information for whoever you searched for";
 	// look up person's information
 
-dataObject.filter(function(el)){
-if(el = firstname){return true;}
-else {return false;}
-};
+ var person = firstname.filter(function(el){
+if(el.firstname==0) && {el.lastname == 0}
+
+)};
 
 function getFamily(){
 	// return list of names of immediate family members
