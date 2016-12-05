@@ -8,8 +8,8 @@ function test()
 }
 
 /*var dataObject = {
-	  //personId : 00001;
-		// {
+	  personId : 00001;
+		 {
 	  "firstName": "Billy",
 	  "lastName": "Bob",
 	  "gender": "male",
@@ -307,7 +307,7 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
 	  "parents": [],
-	  "currentSpouse": 401222887
+	  "currentSpouse": "Uma Bob",
 	},
 	"401222887" : {
 	  "firstName": "Uma",
@@ -319,7 +319,7 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 272822514
+	  "currentSpouse": "Billy Bob",
 	},
 	"409574486" : {
 	  "firstName": "Michael",
@@ -331,7 +331,7 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
 	  "parents": [],
-	  "currentSpouse": 260451248
+	  "currentSpouse": "Jon Walkens",
 	},
 	"260451248" : {
 	  "firstName": "Jon",
@@ -343,7 +343,7 @@ var dataObject = {
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 409574486
+	  "currentSpouse": "Michael Walkens",
 	},
 	"629807187" : {
 	  "firstName": "Jack",
@@ -355,7 +355,7 @@ var dataObject = {
 	  "eyeColor": "black",
 	  "occupation": "nurse",
 	  "parents": [],
-	  "currentSpouse": 464142841
+	  "currentSpouse": "Jen Pafoy",
 	},
 	"464142841" : {
 	  "firstName": "Jen",
@@ -367,7 +367,7 @@ var dataObject = {
 	  "eyeColor": "black",
 	  "occupation": "student",
 	  "parents": [],
-	  "currentSpouse": 629807187
+	  "currentSpouse": "Jack Pafoy",
 	},
 	"982411429" : {
 	  "firstName": "Mister",
@@ -379,7 +379,7 @@ var dataObject = {
 	  "eyeColor": "hazel",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 595767575
+	  "currentSpouse": "Missuz Potatoo",
 	},
 	"595767575" : {
 	  "firstName": "Missuz",
@@ -391,7 +391,7 @@ var dataObject = {
 	  "eyeColor": "blue",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 982411429
+	  "currentSpouse": "Mister Potatoo",
 	},
 	"693243224" : {
 	  "firstName": "Joy",
@@ -426,8 +426,8 @@ var dataObject = {
 	  "weight": 118,
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
-	  "parents": [401222887],
-	  "currentSpouse": 294874671
+	  "parents": "Uma Bob",
+	  "currentSpouse": "Dave Pafoy",
 	},
 	"951747547" : {
 	  "firstName": "Ralph",
@@ -438,8 +438,8 @@ var dataObject = {
 	  "weight": 179,
 	  "eyeColor": "blue",
 	  "occupation": "nurse",
-	  "parents": [401222887],
-	  "currentSpouse": 159819275
+	  "parents": "Uma Bob",
+	  "currentSpouse": "Jasmine Bob",
 	},
 	"159819275" : {
 	  "firstName": "Jasmine",
@@ -450,8 +450,8 @@ var dataObject = {
 	  "weight": 156,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [409574486,260451248],
-	  "currentSpouse": 951747547
+	  "parents": ["Michael Walkens","Jon Walkens"],
+	  "currentSpouse": "Ralph Bob",
 	},
 	"348457184" : {
 	  "firstName": "Annie",
@@ -462,7 +462,7 @@ var dataObject = {
 	  "weight": 235,
 	  "eyeColor": "hazel",
 	  "occupation": "landscaper",
-	  "parents": [629807187,464142841],
+	  "parents": ["Jack Pafoy","Jen Pafoy"],
 	  "currentSpouse": null
 	},
 	"294874671" : {
@@ -474,8 +474,8 @@ var dataObject = {
 	  "weight": 112,
 	  "eyeColor": "green",
 	  "occupation": "doctor",
-	  "parents": [629807187,464142841],
-	  "currentSpouse": 878013758
+	  "parents": ["Jack Pafoy","Jen Pafoy"],
+	  "currentSpouse": "Jill Pafoy"
 	},
 	"931247228" : {
 	  "firstName": "Amii",
@@ -486,7 +486,7 @@ var dataObject = {
 	  "weight": 184,
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
-	  "parents": [629807187,464142841],
+	  "parents": ["Jack Pafoy","Jen Pafoy"],
 	  "currentSpouse": null
 	},
 	"822843554" : {
@@ -498,7 +498,7 @@ var dataObject = {
 	  "weight": 249,
 	  "eyeColor": "brown",
 	  "occupation": "nurse",
-	  "parents": [693243224, 888201200],
+	  "parents": ["Joy Madden", "Mader Madden"],
 	  "currentSpouse": null
 	},
 	"819168108" : {
@@ -510,7 +510,7 @@ var dataObject = {
 	  "weight": 187,
 	  "eyeColor": "brown",
 	  "occupation": "politician",
-	  "parents": [693243224, 888201200],
+	  "parents": ["Joy Madden", "Mader Madden"],
 	  "currentSpouse": null
 	},
 	"969837479" : {
@@ -522,7 +522,7 @@ var dataObject = {
 	  "weight": 241,
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
-	  "parents": [693243224, 888201200],
+	  "parents": ["Joy Madden", "Mader Madden"],
 	  "currentSpouse": null
 	},
 	"313207561" : {
@@ -534,8 +534,8 @@ var dataObject = {
 	  "weight": 110,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [693243224, 888201200],
-	  "currentSpouse": 313997561
+	  "parents": ["Joy Madden", "Mader Madden"],
+	  "currentSpouse": "Ellen Madden",
 	},
 	"313997561" : {
 	  "firstName": "Ellen",
@@ -547,7 +547,7 @@ var dataObject = {
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
 	  "parents": [],
-	  "currentSpouse": 313207561
+	  "currentSpouse": "Mattias Madden",
 	},
 	"313998000" : {
 	  "firstName": "Joey",
@@ -558,7 +558,7 @@ var dataObject = {
 	  "weight": 100,
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
-	  "parents": [313207561,313997561],
+	  "parents": ["Mattias Madden","Ellen Madden"],
 	  "currentSpouse": null
 	}
 };
@@ -619,6 +619,10 @@ function getPersonInfo(personID)
 	uiEle.value = dataObject[personID].eyeColor;
 	uiEle = document.getElementById('occupation')
 	uiEle.value = dataObject[personID].occupation;
+	uiEle = document.getElementById('parents')
+	uiEle.value = dataObject[personID].parents;
+	uiEle = document.getElementById('Current Spouse')
+	uiEle.value = dataObject[personID].currentSpouse;
 }
 
 /*function getFamily(){
