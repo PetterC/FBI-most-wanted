@@ -303,19 +303,17 @@ console.log(result)
 var result2 = getChildOf(result[0]);
 console.log(result2);
 
-var result3 = getDescendantsOf(result[0]);
-console.log(result3);
+/*var result3 = getDescendantsOf(result[0]);
+console.log(result3);*/
 
 /*var result4 = getFamily(result)
 console.log(result4);*/
 
-var result5 = objectToArray(result[0]);
-console.log(result4);*/
-
-var result6 = isMatch(result[0]);
+/*var result5 = objectToArray(result[0]);
 console.log(result5);*/
 
-
+/*var result6 = isMatch(result[0]);
+console.log(result5);*/
 
 }
 
@@ -332,10 +330,17 @@ function getPersonInfo(firstname, lastname){
 
 function getDescendantsOf(getChildOf, person) {
 
-	getChildOf,
+  if (getChildOf[0]==[])
+	{
+	return true;
+}
+{
+
+	getChildOf = [0]
   if (getChildOf[0]==person){
 	return true;
-} {
+} else {
+
 return getDescendantsOf(person[0]) + getDescendantsOf(person[1]);
 }
 	};
@@ -345,7 +350,6 @@ return getDescendantsOf(person[0]) + getDescendantsOf(person[1]);
 	 if (member[0]==person || member[1]==person){
 	 return true;
  } else {
- return getFamily(persong[0]) + getFamily(person][1]);
 }
 	};*/
 
@@ -356,15 +360,15 @@ function getChildOf(person){
 	}
 
 
-	function objectToArray(dataObject) {
+	/*function objectToArray(dataObject) {
 	    var objects = [];
 	    for (key in dataObject) {
 	        objects.push(dataObject[key]);
 	    }
 	    return objects;
-	}
+	}*/
 
-	function isMatch(properties, person)
+	/*function isMatch(properties, person)
 	{
 	    var propertyArray = properties.split(",");
 	    var propDict = [];
@@ -373,10 +377,16 @@ function getChildOf(person){
 	        var temparry = entry.split(':');
 	        propDict[temparry[0]] = temparry[1];
 	    });
+
 	    if(!person.eyeColor == propDict["eyeColor"])
 
+	    if(!person.eyeColor == propDict["eyeColor"]) //Add check inside parenthesis to make sure dictionary has that key  if(keyDict has eye color key && !person.eyeColor == propDict["eyeColor"])
+	        return false;
+	    // this is will be all IFs for the altributes for the person...if the attribute is not a search parameter, the if will fall through to the next if
+
+
 	    return true;
-	}
+	}*/
 
 	/*function initSearch()
 	{
