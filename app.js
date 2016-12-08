@@ -1,6 +1,6 @@
 var dataObject = [
 		 {
-		"Id" : 00001,
+		"Id" : 1,
 	  "firstName": "Billy",
 	  "lastName": "Bob",
 	  "gender": "male",
@@ -10,10 +10,10 @@ var dataObject = [
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
 	  "parents": [],
-	  "currentSpouse": 00002
+	  "currentSpouse": 2
 	},
 		 {
-		 "Id" : 00002,
+		 "Id" : 2,
 	  "firstName": "Uma",
 	  "lastName": "Bob",
 	  "gender": "female",
@@ -23,10 +23,10 @@ var dataObject = [
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 00001
+	  "currentSpouse": 1
 	},
 	{
-	  "Id" : 00003,
+	  "Id" : 3,
 	  "firstName": "Michael",
 	  "lastName": "Walkens",
 	  "gender": "male",
@@ -36,10 +36,10 @@ var dataObject = [
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
 	  "parents": [],
-	  "currentSpouse": 00004
+	  "currentSpouse": 4
 	},
 		 	{
-		"Id" : 00004,
+		"Id" : 4,
 	  "firstName": "Jon",
 	  "lastName": "Walkens",
 	  "gender": "male",
@@ -49,10 +49,10 @@ var dataObject = [
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
 	  "parents": [],
-	  "currentSpouse": 00003
+	  "currentSpouse": 3
 	},
 	{
-	  "Id" : 00005,
+	  "Id" : 5,
 	  "firstName": "Jack",
 	  "lastName": "Pafoy",
 	  "gender": "male",
@@ -62,10 +62,10 @@ var dataObject = [
 	  "eyeColor": "black",
 	  "occupation": "nurse",
 	  "parents": [],
-	  "currentSpouse": 00006
+	  "currentSpouse": 6
 	},
 	 {
-	  "Id" : 00006,
+	  "Id" : 6,
 	  "firstName": "Jen",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -75,10 +75,10 @@ var dataObject = [
 	  "eyeColor": "black",
 	  "occupation": "student",
 	  "parents": [],
-	  "currentSpouse": 00005
+	  "currentSpouse": 5
 	},
 	{
-	  "Id" : 00007,
+	  "Id" : 7,
 	  "firstName": "Mister",
 	  "lastName": "Potatoo",
 	  "gender": "male",
@@ -88,10 +88,10 @@ var dataObject = [
 	  "eyeColor": "hazel",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 00008
+	  "currentSpouse": 8
 	},
 	{
-	  "Id" : 00008,
+	  "Id" : 8,
 	  "firstName": "Missuz",
 	  "lastName": "Potatoo",
 	  "gender": "female",
@@ -101,10 +101,10 @@ var dataObject = [
 	  "eyeColor": "blue",
 	  "occupation": "architect",
 	  "parents": [],
-	  "currentSpouse": 00007
+	  "currentSpouse": 7
 	},
 	{
-	  "Id" : 00009,
+	  "Id" : 9,
 	  "firstName": "Joy",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -117,7 +117,7 @@ var dataObject = [
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00010,
+	  "Id" : 10,
 	  "firstName": "Mader",
 	  "lastName": "Madden",
 	  "gender": "male",
@@ -130,7 +130,7 @@ var dataObject = [
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00011,
+	  "Id" : 11,
 	  "firstName": "Jill",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -139,11 +139,11 @@ var dataObject = [
 	  "weight": 118,
 	  "eyeColor": "brown",
 	  "occupation": "programmer",
-	  "parents": [00006],
+	  "parents": [6],
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00012,
+	  "Id" : 12,
 	  "firstName": "Ralph",
 	  "lastName": "Bob",
 	  "gender": "male",
@@ -152,11 +152,11 @@ var dataObject = [
 	  "weight": 179,
 	  "eyeColor": "blue",
 	  "occupation": "nurse",
-	  "parents": [00002,00001],
-	  "currentSpouse": 00013
+	  "parents": [2,1],
+	  "currentSpouse": 13
 	},
 	{
-	  "Id" : 00013,
+	  "Id" : 13,
 	  "firstName": "Jasmine",
 	  "lastName": "Bob",
 	  "gender": "female",
@@ -165,11 +165,11 @@ var dataObject = [
 	  "weight": 156,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [00004,00003],
-	  "currentSpouse": 000012
+	  "parents": [4,3],
+	  "currentSpouse": 12
 	},
 	{
-	  "Id" : 00014,
+	  "Id" : 14,
 	  "firstName": "Annie",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -178,11 +178,11 @@ var dataObject = [
 	  "weight": 235,
 	  "eyeColor": "hazel",
 	  "occupation": "landscaper",
-	  "parents": [00005,00006],
+	  "parents": [5,6],
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00015,
+	  "Id" : 15,
 	  "firstName": "Dave",
 	  "lastName": "Pafoy",
 	  "gender": "male",
@@ -191,11 +191,11 @@ var dataObject = [
 	  "weight": 112,
 	  "eyeColor": "green",
 	  "occupation": "doctor",
-	  "parents": [00005,00006],
-	  "currentSpouse": 00011
+	  "parents": [5,6],
+	  "currentSpouse": 11
 	},
 	{
-	  "Id" : 00016,
+	  "Id" : 16,
 	  "firstName": "Amii",
 	  "lastName": "Pafoy",
 	  "gender": "female",
@@ -204,11 +204,11 @@ var dataObject = [
 	  "weight": 184,
 	  "eyeColor": "brown",
 	  "occupation": "landscaper",
-	  "parents": [00005,00006],
+	  "parents": [5,6],
 	  "currentSpouse": null
 	},
 	{
-  	"Id" : 00017,
+  	"Id" : 17,
 	  "firstName": "Regina",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -217,11 +217,11 @@ var dataObject = [
 	  "weight": 249,
 	  "eyeColor": "brown",
 	  "occupation": "nurse",
-	  "parents": [00009, 00010],
+	  "parents": [9, 10],
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00018,
+	  "Id" : 18,
 	  "firstName": "Hana",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -230,11 +230,11 @@ var dataObject = [
 	  "weight": 187,
 	  "eyeColor": "brown",
 	  "occupation": "politician",
-	  "parents": [00009, 00010],
+	  "parents": [9, 10],
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00019,
+	  "Id" : 19,
 	  "firstName": "Eloise",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -243,11 +243,11 @@ var dataObject = [
 	  "weight": 241,
 	  "eyeColor": "brown",
 	  "occupation": "assistant",
-	  "parents": [00009, 00010],
+	  "parents": [9, 10],
 	  "currentSpouse": null
 	},
 	{
-	  "Id" : 00020,
+	  "Id" : 20,
 	  "firstName": "Mattias",
 	  "lastName": "Madden",
 	  "gender": "male",
@@ -256,11 +256,11 @@ var dataObject = [
 	  "weight": 110,
 	  "eyeColor": "blue",
 	  "occupation": "assistant",
-	  "parents": [00009, 00010],
-	  "currentSpouse": 00021
+	  "parents": [9, 10],
+	  "currentSpouse": 21
 	},
 	{
-	  "Id" : 00021,
+	  "Id" : 21,
 	  "firstName": "Ellen",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -270,10 +270,10 @@ var dataObject = [
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
 	  "parents": [],
-	  "currentSpouse": 00020
+	  "currentSpouse": 20
 	},
 	{
-	  "Id" : 00022,
+	  "Id" : 22,
 	  "firstName": "Joey",
 	  "lastName": "Madden",
 	  "gender": "female",
@@ -282,7 +282,7 @@ var dataObject = [
 	  "weight": 100,
 	  "eyeColor": "blue",
 	  "occupation": "doctor",
-	  "parents": [00021,00020],
+	  "parents": [21,20],
 	  "currentSpouse": null
 	}
 ];
@@ -303,8 +303,11 @@ console.log(result)
 var result2 = getChildOf(result[0]);
 console.log(result2);
 
-/*var result3 = getDescendantsOf(result[0]);
-console.log(result3);*/
+var result3 = getDescendantsOf(result[0]);
+console.log(result3);
+
+var result4 = getParent(result[0]);
+console.log(result4);
 
 /*var result4 = getFamily(result)
 console.log(result4);*/
@@ -328,36 +331,39 @@ function getPersonInfo(firstname, lastname){
 });
 }
 
-function getDescendantsOf(getChildOf, person) {
-
-  if (getChildOf[0]==[])
-	{
-	return true;
+function getDescendantsOf(person) {
+if (person < parents[0]){
+	return -1;
 }
-{
-
-	getChildOf = [0]
-  if (getChildOf[0]==person){
-	return true;
-} else {
-
-return getDescendantsOf(person[0]) + getDescendantsOf(person[1]);
+else if (person == parents[1]){
+	return 1;
 }
-	};
-
-	/*function getFamily(person) {
-   var member = [0];
-	 if (member[0]==person || member[1]==person){
-	 return true;
- } else {
+else {
+	return (person * getDescendantsOf(person - 1));
 }
-	};*/
+}
+
+
+function getParent(person){
+	return dataObject.filter(function (el) {
+		return(el.Id==person.parents[0] || el.Id==person.parents[1]);
+	});
+}
 
 function getChildOf(person){
 	return dataObject.filter(function(el){
 		return(el.parents[0]==person.Id || el.parents[1]==person.Id);
 	});
-	}
+}
+
+/*function getFamily(person) {
+ var member = [0];
+ if (member[0]==person || member[1]==person){
+ return true;
+} else {
+}
+};*/
+
 
 
 	/*function objectToArray(dataObject) {
