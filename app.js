@@ -300,14 +300,14 @@ function initSearch()
 var result = getPersonInfo(yourFirstName, yourLastName)
 console.log(result)
 
-var result2 = getChildOf(result[0]);
-console.log(result2);
+/*var result2 = getDescendants(result[0]);
+console.log(result2);*/
 
-var result3 = getDescendantsOf(result[0]);
-console.log(result3);
+/*var result3 = getDescendantsOf(result[0]);
+console.log(result3);*/
 
-var result4 = getParent(result[0]);
-console.log(result4);
+/*var result4 = getParent(result[0]);
+console.log(result4);*/
 
 /*var result4 = getFamily(result)
 console.log(result4);*/
@@ -331,39 +331,47 @@ function getPersonInfo(firstname, lastname){
 });
 }
 
-function getDescendantsOf(person) {
-if (person < parents[0]){
-	return -1;
-}
-else if (person == parents[1]){
-	return 1;
-}
-else {
-	return (person * getDescendantsOf(person - 1));
-}
-}
+/*function getDescendantsOf(person) {
+	return dataObject.filter(function(el){
+		return(el.Id==person.parents[0]);
+	})
+	if (person = 0) {
+		return 0;
+	}else {
+		return getDescendantsOf.set.join(person, dataObject);
+	}
+}*/
 
-
-function getParent(person){
+/*function getParent(person){
 	return dataObject.filter(function (el) {
 		return(el.Id==person.parents[0] || el.Id==person.parents[1]);
 	});
-}
-
-function getChildOf(person){
+}*/
+/*function getDescendants(person){
 	return dataObject.filter(function(el){
 		return(el.parents[0]==person.Id || el.parents[1]==person.Id);
-	});
-}
+	})
+	if (person = 0){
+		return 0;
+	}else (person = 1)
+	{
+		return getDescendants.set.join(person)
+	}
+}*/
 
 /*function getFamily(person) {
- var member = [0];
- if (member[0]==person || member[1]==person){
- return true;
-} else {
+return dataObject.filter(function(el){
+ return(el.currentSpouse[0]==null || el.currentSpouse[1]==person.Id);
 }
-};*/
-
+}*/
+/*if (currentSpouse = null){
+	return null;
+}else (currentSpouse = Id)
+{
+	return getFamily.set.join(person)
+}
+}
+}*/
 
 
 	/*function objectToArray(dataObject) {
@@ -403,7 +411,8 @@ function getChildOf(person){
 	    }).map(function(person){
 	        alert(person.firstName + " " + person.lastName);  //instead of alerting, concatenate all of the names in a string to display.
 	    });
-	}
+		}
+	*/
 
 
 

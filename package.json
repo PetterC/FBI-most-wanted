@@ -1,9 +1,9 @@
 {
   "name": "most-wanted",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "app-spec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
