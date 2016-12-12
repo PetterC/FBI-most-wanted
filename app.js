@@ -287,47 +287,11 @@ var dataObject = [
 	}
 ];
 
-function getFirstName(el){
-	return document.getElementById(el).value;
-}
-function getLastName(el){
-	return document.getElementById(el).value;
-}
-function printToPage(output, el) {
-	document.getElementById(el).innerHTML = output;
-}
-function printListToPage(people){
-	var name = people.map(function(person){
-		return person.firstName + " " + person.lastName;
-	}).toString();
-	return name;
-}
-function getOutput(people){
-	return people.map(infoList).join("")
-}
-function infoList(person){
-	if (person == null){
-		return "no results";
-	}
-	var output = " ";
-	output += "<p> Name: " + person.firstName + " "+ person.lastName + "</p>";
-	output += "<p> DOB: " + person.dob + "</p>";
-	output += "<p> Height: " + person.height + "</p>";
-	output += "<p> Weight: " + person.Weight + "</p>";
-	output += "<p> Eye Color: " + person.eyeColor + "</p>";
-	output += "<p> Occupation: " + person.occupation + "</p>";
-	output += "<p> Parent: " + person.parents + "</p>";
-	output += "<p> Current Spouse: " person.currentSpouse + "</p>";
-	return output;
-}
+function getPersonInfo(firstname, lastname){
 
-function getPersonInfo(firstName, lastName) {
-	for(var i = 0; i < dataObject.length; i++){
-		if (firstName === dataObject[i].firstName && lastName === dataObject[i].lastName){
-			return(dataObject[i]);
-		}
-	}
-}
+ return dataObject.filter(function(el){
+	 return (el.firstName==firstname && el.lastName == lastname);
+});
 
 /*function getDescendantsOf(person) {
 	return dataObject.filter(function(el){

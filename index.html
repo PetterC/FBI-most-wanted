@@ -10,22 +10,22 @@
 <script>
 
 </script>
-<div id="container">
+<section>
+<p> Find a Family Member</p>
+  <p class="boxText"> Type in first and last name of family member.</p>
+  <div>
+    <label for="firstName"> First Name</label>
+    <input Id="firstName" name="firstName" type="text">
+  </div>
+  <div>
+    <label for="lastName">Last Name</label>
+    <input Id="lastName" name="firstName" type="text">
+  </div>
+  <div><button class="button" onclick="getPersonInfo()"
+   type="button">Search</button></div>
 
-      <div class="div-3">
-        <div class="div">
-          <h5>Find a Person's Information</h5>
-          <p class="boxText">Please type the first and last name of the person you are looking for.</p>
-          <div>
-            <label for="firstName">First Name</label> <input id="firstName1" name="firstName" type="text" placeholder="ex: Billy">
-          </div>
-          <div>
-            <label for="lastName">Last Name</label> <input id="lastName1" name="firstName" type="text" placeholder="ex: Bob">
-          </div>
-          <div><button class="button" onclick="printListToPage(markup(getInformation(getFirstNameParam('firstName1'), getLastNameParam('lastName1'))), 'targetInfo1')" type="button">Search</button></div>
-            <div class="results" id="targetInfo1"></div>
-          </div>
-      </div>
+</section>
+
 <script src="app.js"></script>
   </body>
 </html>
