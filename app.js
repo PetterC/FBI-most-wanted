@@ -292,7 +292,7 @@ function getPersonInfo(firstname, lastname){
  return dataObject.filter(function(el){
 	 return (el.firstName==firstname && el.lastName == lastname);
 });
-
+}
 /*function getDescendantsOf(person) {
 	return dataObject.filter(function(el){
 		return(el.Id==person.parents[0]);
